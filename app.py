@@ -9,7 +9,7 @@ from sqlalchemy import select, delete
 
 app = Flask(__name__) # creating instance of flask class
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:Potato828@localhost/ecom'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:your_password@localhost/ecom'
 class Base(DeclarativeBase):
     pass
 
